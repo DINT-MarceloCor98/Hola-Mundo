@@ -14,9 +14,9 @@
             <ColumnDefinition Width="588*"/>
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" Margin="27,36,0,0" TextWrapping="Wrap" Text="Hola mundo!" VerticalAlignment="Top" Height="98" Width="368" FontSize="48" Grid.Column="3"/>
-        <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="25" Margin="57,194,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="300" FontSize="16" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="25" Margin="57,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" FontSize="16" Grid.Column="2" Grid.ColumnSpan="2"/>
         <Button x:Name="AceptarButton" Content="Aceptar" HorizontalAlignment="Left" Margin="285.5,187,0,0" VerticalAlignment="Top" Width="110" Height="41" Click="AceptarButton_Click" Grid.Column="3"/>
-        <Button x:Name="LimpiarButton" Content="Limpiar&#xD;&#xA;" HorizontalAlignment="Left" Margin="415,187,0,0" VerticalAlignment="Top" Width="117" Height="41" Click="LimpiarButton_Click" Grid.Column="3"/>
+        <Button x:Name="LimpiarButton" Content="Limpiar;" HorizontalAlignment="Left" Margin="415,187,0,0" VerticalAlignment="Top" Width="117" Height="41" Click="LimpiarButton_Click" Grid.Column="3"/>
         <TextBlock HorizontalAlignment="Left" Margin="57,155,0,0" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" Height="34" Width="100" FontSize="20" Grid.Column="2" Grid.ColumnSpan="2"/>
 
     </Grid>
